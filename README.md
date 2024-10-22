@@ -15,7 +15,7 @@ Durante esta aula, aprofundei meu conhecimento sobre a personalização e organi
   * Bastions: Funcionam como Jump Servers, proporcionando acesso seguro aos recursos da nuvem.
 
 ## Microsoft Azure - Criando máquinas Virtuais na Azure
-Durante esta aula, aprofundei meu conhecimento os diferentes níveis de Service Level Agreement (SLA) e seu impacto no tempo de inatividade de um serviço. Os dados apresentados demonstram a relação entre o nível de SLA contratado e a disponibilidade do serviço.
+Durante esta aula, aprofundei meu conhecimento nos diferentes níveis de Service Level Agreement (SLA) e seu impacto no tempo de inatividade de um serviço. Os dados apresentados demonstram a relação entre o nível de SLA contratado e a disponibilidade do serviço.
 
 | Nível de SLA | Tempo de Inatividade por Semana | Tempo de Inatividade por Mês | Tempo de Inatividade por Ano |
 |---|---|---|---|
@@ -26,7 +26,24 @@ Durante esta aula, aprofundei meu conhecimento os diferentes níveis de Service 
 | 99,999% | 6 segundos | 25,9 segundos | 5,26 minutos |
 
 ### Análise
-
 * **SLA e Disponibilidade:** Quanto maior o número de "9s" no SLA, menor o tempo esperado de inatividade.
 * **Impacto no Custo:** SLAs mais altos geralmente estão associados a custos mais elevados.
 * **Considerações para a Escolha do SLA:** Ao escolher um SLA, é fundamental avaliar a tolerância a falhas da sua aplicação e o impacto financeiro que a indisponibilidade pode causar.
+
+## Microsoft Azure - Modelos de Nuvem
+Durante esta aula, aprofundei meu conhecimento entre os principais modelos de computação em nuvem: IaaS, PaaS e SaaS. Cada modelo oferece diferentes níveis de abstração e responsabilidades, permitindo que as empresas escolham a solução mais adequada para suas necessidades.
+
+### IaaS (Infraestrutura como Serviço):
+* O IaaS fornece uma infraestrutura de TI sob demanda, como servidores, armazenamento e redes virtuais.
+* O cliente é responsável pela gestão dos sistemas operacionais, aplicativos e dados.
+* Maior flexibilidade e controle sobre o ambiente.
+  
+### PaaS (Plataforma como Serviço):
+* O PaaS oferece um ambiente de desenvolvimento e hospedagem de aplicativos, incluindo sistemas operacionais, ferramentas de desenvolvimento e bancos de dados.
+* O cliente é responsável pelo desenvolvimento do aplicativo e do conteúdo.
+* Acelera o desenvolvimento de aplicativos e reduz a complexidade da gestão da infraestrutura.
+  
+### SaaS (Software como Serviço):
+* O SaaS fornece aplicativos de software completos, acessíveis através de um navegador da web.
+* O cliente é responsável apenas pelos dados e pela configuração do aplicativo.
+* Fácil de usar e rápida implantação.
